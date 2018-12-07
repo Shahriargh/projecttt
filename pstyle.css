@@ -1,0 +1,207 @@
+ 
+ body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+ 
+.text {
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    color:white;
+   
+} 
+
+.text:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    color: red;
+    opacity: 1;
+}
+
+#title:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-size: 60px;
+    color: red;
+    opacity: 1;
+}
+
+.title{
+    color: white;
+    font-family: 'Sofia', cursive;
+    
+    
+}
+
+.title:hover{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.6s;
+    cursor: pointer;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    color: red;
+    opacity: 1;
+    
+}
+
+@keyframes pulse {
+    0%{
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(3)
+    }
+    100% {
+        transform: scale(2)
+    }
+}
+
+header{
+    color: white;
+    font-family: 'Bungee', cursive;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    font-size: 20px;
+    
+    
+}   
+
+hr { 
+    height:2px; 
+    background:white;
+    border-radius: 30px;
+    width: 900px;
+    display: inline-block;
+}
+
+#section3{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    margin-top: 80px;
+
+}
+
+#section2{
+    margin-top: 100px;
+}
+
+#title1{
+    padding: 30px;
+    margin-top: 80px;
+}
+
+#PicBox1{
+    display: block;
+    width: 450px;
+}
+
+#pic1{
+width: 100%;
+border-radius: 70px;
+
+}
+
+#section4{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+#section5{
+    display: flex;
+    padding: 40px;
+    margin-top: 70px;
+}
+
+#title2{
+    padding: 40px;
+}
+
+
+#pic2{
+    
+    border-radius: 50%;
+    width: 600px;
+    
+}
+
+#section7{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+
+}
+
+#pic3{
+    border-radius: 50%;
+    width: 500px;
+
+   
+}
+ #pic3:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+ }
+button {
+  padding: 50px 80px;
+  margin-top: 70px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.6s;
+  cursor: pointer;
+  background-color:black; 
+  color: white; 
+  border: none;
+  font-family: 'Bree Serif', serif;
+}
+
+
+button:hover {
+    background-color: white;
+    color: black;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+   
+}
+
+footer{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+}
+
+#wishing{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+    color: white;
+    font-family: 'Bungee', cursive;
+    padding: 80px;
+    
+
+}
